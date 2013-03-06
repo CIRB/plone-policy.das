@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="policy.das">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="policy.das"
+      directory="profiles/default"
+      description='Extension profile : A policy for DAS plone site.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:importStep
+      name="policy.das.various"
+      title="policy.das: miscellaneous import steps"
+      description="Various import steps that are not handled by GS import/export handlers."
+      handler="policy.das.setuphandlers.setupVarious">
+    <depends name="Products.LinguaPlone"/>
+  </genericsetup:importStep>
+
+</configure>
