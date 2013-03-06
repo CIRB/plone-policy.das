@@ -3,5 +3,6 @@
   <version>0001</version>
   <dependencies>
       <dependency>profile-Products.LinguaPlone:LinguaPlone</dependency>
+      <dependency>profile-plonetheme.das:default</dependency>
   </dependencies>
 </metadata>

@@ -29,6 +29,7 @@ setup(name='policy.das',
           'Products.LinguaPlone',
           'cirb.zopemonitoring',
           # -*- Extra requirements: -*-
+          'plonetheme.das',
       ],
       entry_points="""
       # -*- Entry points: -*-
