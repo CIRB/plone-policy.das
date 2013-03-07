@@ -30,6 +30,7 @@ setup(name='policy.das',
           'cirb.zopemonitoring',
           # -*- Extra requirements: -*-
           'plonetheme.das',
+          'collective.easyslider',
       ],
       entry_points="""
       # -*- Entry points: -*-
