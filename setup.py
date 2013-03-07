@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '1.0.3.dev0'
+version = '1.0.3'
 
 setup(name='policy.das',
       version=version,
@@ -31,6 +31,7 @@ setup(name='policy.das',
           # -*- Extra requirements: -*-
           'plonetheme.das',
           'collective.easyslider',
+          'collective.js.jqueryui',
       ],
       entry_points="""
       # -*- Entry points: -*-
