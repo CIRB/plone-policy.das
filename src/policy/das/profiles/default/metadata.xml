@@ -4,5 +4,6 @@
   <dependencies>
       <dependency>profile-Products.LinguaPlone:LinguaPlone</dependency>
       <dependency>profile-plonetheme.das:default</dependency>
+      <dependency>profile-collective.anysurfer:default</dependency>
   </dependencies>
 </metadata>
