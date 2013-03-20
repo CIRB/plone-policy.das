@@ -8,5 +8,6 @@
   <include file="profiles.zcml" />
   <include package="cirb.zopemonitoring" />
   <include package="collective.anysurfer" />
+  <include package="Products.PloneFormGen" />
 
 </configure>

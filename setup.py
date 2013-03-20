@@ -32,7 +32,8 @@ setup(name='policy.das',
           'plonetheme.das',
           'collective.easyslider',
           'collective.js.jqueryui',
-          'collective.anysurfer'
+          'collective.anysurfer',
+          'Products.PloneFormGen'
       ],
       entry_points="""
       # -*- Entry points: -*-
